@@ -6,6 +6,6 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class WikispyderPipeline(object):
+class WikispiderPipeline(object):
     def process_item(self, item, spider):
         return item

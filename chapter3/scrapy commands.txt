@@ -1,0 +1,3 @@
+scrapy startproject projectName
+scrapy crawl projectName
+scrapy crawl projectName -o projectName.(xml|json|csv) -t (xml|json|csv)

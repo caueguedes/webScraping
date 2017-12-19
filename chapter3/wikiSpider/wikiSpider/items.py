@@ -8,7 +8,12 @@
 import scrapy
 
 
-class WikispyderItem(scrapy.Item):
+class WikispiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class Article(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    title = scrapy.Field()
