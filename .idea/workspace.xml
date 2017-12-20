@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd287ae-13c1-4b66-9327-8d68a024561c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/scrapy commands.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/spiders/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chapter3/wikispyder/wikispyder/__init__.py" afterPath="$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/spiders/articleSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/spiders/articleSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/1 searchTwitter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/2 updateTwitter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/3 getTwitterStatus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4 decodeJson.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/5 jsonParsing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/6 wikiHistories.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,30 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articleSpider.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/spiders/articleSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +31,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sgmllib</find>
+      <find>beau</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +45,13 @@
         <option value="$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/items.py" />
         <option value="$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/settings.py" />
         <option value="$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/spiders/articleSpider.py" />
+        <option value="$PROJECT_DIR$/chapter4/1 searchTwitter.py" />
+        <option value="$PROJECT_DIR$/chapter4/2 updateTwitter.py" />
+        <option value="$PROJECT_DIR$/chapter4/3 getTwitterStatus.py" />
+        <option value="$PROJECT_DIR$/chapter4/api_key.py" />
+        <option value="$PROJECT_DIR$/chapter4/4 decodeJson.py" />
+        <option value="$PROJECT_DIR$/chapter4/5 jsonParsing.py" />
+        <option value="$PROJECT_DIR$/chapter4/6 wikiHistories.py" />
       </list>
     </option>
   </component>
@@ -108,28 +92,7 @@
             <path>
               <item name="webScraping" type="b2602c69:ProjectViewProjectNode" />
               <item name="webScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webScraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="wikiSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webScraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="wikiSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="wikiSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webScraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="wikiSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="wikiSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1513650396693</updated>
     </task>
+    <task id="LOCAL-00001" summary="chapter 3 ended commit">
+      <created>1513726087294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513726087294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -191,12 +162,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -213,11 +184,43 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chapter 3 ended commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 3 ended commit" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -261,14 +264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -285,13 +280,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/1 searchTwitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/wikiSpider/wikiSpider/spiders/articleSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/3 getTwitterStatus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/2 updateTwitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/6 wikiHistories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/5 jsonParsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/4 decodeJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/api_key.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
