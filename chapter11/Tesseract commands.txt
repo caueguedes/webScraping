@@ -1,0 +1,3 @@
+
+Run Tesseract that reads this file and write the results to a text file:
+$tesseract text.tif textoutput | cat textoutput.txt
